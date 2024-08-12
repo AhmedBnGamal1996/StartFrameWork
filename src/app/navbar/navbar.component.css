@@ -1,0 +1,16 @@
+li{
+    width: fit-content;
+}
+.navbar-collapse{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar{
+background-color: #2c3e50;
+
+}
+.bg-b{
+    background-color: #1abc9c;
+ }

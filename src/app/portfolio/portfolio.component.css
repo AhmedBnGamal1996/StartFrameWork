@@ -1,0 +1,33 @@
+.line{
+    background-color: rgb(0, 0, 0);
+    height:3.5px ;
+    width:80px ;
+} 
+.row{
+    flex-wrap: nowrap!important; 
+
+} 
+.hampozo {
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+
+}
+
+.hampozo:hover {
+    background-color: #1abc9ce6 !important ;
+    opacity: 1;
+    cursor: pointer;
+    transition: .6s opacity;
+    transform: scale(1.1);
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.box-container{
+background-color: rgba(255, 255, 255, 0.583);
+}

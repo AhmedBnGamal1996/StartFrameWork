@@ -1,0 +1,114 @@
+<div class="mb-5">
+    <div class="pt-4">
+
+    <div class="text-center mt-5 pt-5">
+        <h2 class="text-uppercase mb-3 fs-1 fw-bolder">Portfolio component</h2>
+        <div class="d-flex justify-content-center align-items-center">  
+          <div class="line m-3"></div>
+          <i class="fa-solid fa-star"></i>
+          <div class="line m-3"></div>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------------------------- -->
+
+      
+        <div class="container"> 
+            <div class="row gap-5">
+                <div class="col-lg-4 col-md-6 mt-5 ">
+                    <div class="rounded-4  overflow-hidden position-relative "(click)="open('/poert1.png')" >
+                        <img class="w-100 rounded-3" src="./assets/poert1.png"  alt="poert1">
+                        <div class="hampozo start-0 w-100 position-absolute top-0 h-100 bg-primary  d-flex justify-content-center align-items-center">
+                            <i class="text-white fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="rounded-4  overflow-hidden position-relative" (click)="open('/port2.png')">
+                        <img class="w-100 rounded-3" src="./assets/port2.png"  alt="poert1">
+                        <div class="hampozo start-0 w-100 position-absolute top-0 h-100 bg-primary  d-flex justify-content-center align-items-center">
+                            <i class="text-white fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="rounded-4  overflow-hidden position-relative" (click)="open('/port3.png')">
+                        <img class="w-100 rounded-3" src="./assets/port3.png"  alt="poert1">
+                        <div class="hampozo start-0 w-100 position-absolute top-0 h-100 bg-primary  d-flex justify-content-center align-items-center">
+                            <i class="text-white fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gap-5">
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="rounded-4  overflow-hidden position-relative" (click)="open('/poert1.png')">
+                        <img class="w-100 rounded-3" src="./assets/poert1.png"  alt="poert1">
+                        <div class="hampozo start-0 w-100 position-absolute top-0 h-100 bg-primary  d-flex justify-content-center align-items-center">
+                            <i class="text-white fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="rounded-4  overflow-hidden position-relative" (click)="open('/port2.png')">
+                        <img class="w-100 rounded-3" src="./assets/port2.png"  alt="poert1">
+                        <div class="hampozo start-0 w-100 position-absolute top-0 h-100 bg-primary  d-flex justify-content-center align-items-center">
+                            <i class="text-white fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="rounded-4  overflow-hidden position-relative" (click)="open('/port3.png')" >
+                        <img class="w-100 rounded-3" src="./assets/port3.png" alt="poert1">
+                        <div class="hampozo start-0 w-100 position-absolute top-0 h-100 bg-primary  d-flex justify-content-center align-items-center">
+                            <i class="text-white fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gap-5">
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="rounded-4  overflow-hidden position-relative" (click)="open('/poert1.png')">
+                        <img class="w-100 rounded-3" src="./assets/poert1.png"  alt="poert1">
+                        <div class="hampozo start-0 position-absolute w-100 top-0 h-100 bg-primary  d-flex justify-content-center align-items-center">
+                            <i class="text-white fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <div class="rounded-4  overflow-hidden position-relative" (click)="open('/port2.png')">
+                        <img class="w-100 rounded-3" src="./assets/port2.png"  alt="poert1">
+                        <div class="hampozo  w-100 position-absolute top-0   start-0 h-100 bg-primary  d-flex justify-content-center align-items-center">
+                            <i class="text-white fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5 "(click)="open('/port3.png')" >
+                    <div class="rounded-4  overflow-hidden position-relative " >
+                        <img class="w-100 rounded-3" src="./assets/port3.png"  alt="poert1">
+                        <div class="hampozo start-0 w-100 position-absolute top-0 h-100 bg-primary  d-flex justify-content-center align-items-center">
+                            <i class="text-white fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        @if (isclick == true) {
+        <div class=" box-container position-relative d-flex justify-content-center align-items-center">
+            <div class=" d-flex align-items-center justify-content-center">
+                <img [src]="Imgsrc" class="w-75  mt-3 mx-auto"  alt="img">
+                <i class="fa-regular fa-circle-xmark fs-1" (click)="close()"></i>
+            </div>
+        </div>
+        }
+
+
+
+
+    </div>
+</div>

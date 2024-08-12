@@ -1,0 +1,12 @@
+.About{
+    background-color: #1abc9c;
+    padding-top: 100px;
+    margin-top: 50px;
+    padding-bottom: 90px;
+}
+
+.line{
+    background-color: rgb(255, 255, 255);
+    height:3.5px ;
+    width:80px ;
+}   
